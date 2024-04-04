@@ -614,8 +614,10 @@ footer .copyright
     margin-right: 10px;
 }
 
-
-
+#prodetails .single-pro-details span
+{
+    line-height: 25px;
+}
 
 #prodetails .single-pro-image
 {

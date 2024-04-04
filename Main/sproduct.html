@@ -30,10 +30,10 @@
                     <img src="Img/tShirt.jpg" width="100%" id="MainImg" alt="">
                     <div class="small-img-group">
                         <div class="small-img-col">
-                            <img src="Img/tShirt.jpg" width="100%" class="small-img" alt="">
+                            <img src="Img/tyeDye.png" width="100%" class="small-img" alt="">
                         </div>
                         <div class="small-img-col">
-                            <img src="Img/tShirt.jpg" width="100%" class="small-img" alt="">
+                            <img src="Img/tyeDye.webp" width="100%" class="small-img" alt="">
                         </div>
                         <div class="small-img-col">
                             <img src="Img/tShirt.jpg" width="100%" class="small-img" alt="">
@@ -60,10 +60,72 @@
                         <h4>Detalles del producto</h4>
                         <span>
                                 Para el presidente de la Fundación para el Progreso, el Gobierno no está dejando de lado la batalla de las ideas «la está perdiendo». Quien la está ganando, afirma, es más bien el «sentido común». Sobre las presidenciales, dice que todavía está incierto el panorama, pero que si las encuestas se mantienen, debería ganar Evelyn Matthei. «De Chile Vamos, es a la persona que más fe le tengo», agrega.
-En las oficinas de la Fundación para el Progreso (FPP), algunos se mueven apurados para preparar el lugar. Esperan llenar la oficina de jóvenes para una clase sobre el liberalismo que impartirá Axel Kaiser, presidente de la institución. Esto, dice él, pasa seguido. La semana anterior, mil personas se conectaron para oír su charla sobre F.A. Hayek.
+                                En las oficinas de la Fundación para el Progreso (FPP), algunos se mueven apurados para preparar el lugar. Esperan llenar la oficina de jóvenes para una clase sobre el liberalismo que impartirá Axel Kaiser, presidente de la institución. Esto, dice él, pasa seguido. La semana anterior, mil personas se conectaron para oír su charla sobre F.A. Hayek.
                         </span> 
-
                </div>
+            </section>
+            <section id="product1" class="section-p1">
+                <h2>Featured products</h2>
+                <p>Summer collection modern design</p>
+                <div class="product-container">
+                    <div class="pro">
+                        <img src="Img/product.png" alt="">
+                        <div class="des">
+                            <span>Reebok</span>
+                            <h5>Polera con astronauta</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>$ 100</h4>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-droplet drop"></i></a>
+                    </div>
+                    <div class="pro">
+                        <img src="Img/product.png" alt="">
+                        <div class="des">
+                            <span>Reebok</span>
+                            <h5>Polera con astronauta</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>$ 100</h4>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-droplet drop"></i></a>
+                    </div>
+                    <div class="pro">
+                        <img src="Img/product.png" alt="">
+                        <div class="des">
+                            <span>Reebok</span>
+                            <h5>Polera con astronauta</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>$ 100</h4>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-droplet drop"></i></a>
+                    </div>
+                    <div class="pro">
+                        <img src="Img/product.png" alt="">
+                        <div class="des">
+                            <span>Reebok</span>
+                            <h5>Polera con astronauta</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>$ 100</h4>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-droplet drop"></i></a>
+                    </div>
+                </div>
+            
          </section>
 
         <section id="newsletter">
@@ -126,6 +188,16 @@ En las oficinas de la Fundación para el Progreso (FPP), algunos se mueven apura
             </div>
 
         </footer>
+
+        <script>
+            var MainImage = document.getElementById("MainImg");
+            var SmallImg = document.getElementsByClassName("small-img");
+
+            SmallImg[0].onclick = function(){MainImage.src = SmallImg[0].src}
+            SmallImg[1].onclick = function(){MainImage.src = SmallImg[1].src}
+            SmallImg[2].onclick = function(){MainImage.src = SmallImg[2].src}
+            SmallImg[3].onclick = function(){MainImage.src = SmallImg[3].src}
+        </script>
 
         <script src="script.js"></script>
     </body>
